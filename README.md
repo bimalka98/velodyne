@@ -1,4 +1,19 @@
-[![](https://github.com/ros-drivers/velodyne/workflows/Basic%20Build%20Workflow/badge.svg)](https://github.com/ros-drivers/velodyne/actions)
+
+## Dependencies
+
+```shell
+# install pcap library
+sudo apt-get install git libpcap-dev 
+
+# install ros-<DISTRO>-geometry2
+sudo apt-get install ros-noetic-geometry2
+```
+
+## Reference
+
+1. [Getting Started with the Velodyne VLP16](http://wiki.ros.org/velodyne/Tutorials/Getting%20Started%20with%20the%20Velodyne%20VLP16)
+2. [Velodyne](http://wiki.ros.org/velodyne?distro=noetic)
+    - Point cloud conversions for Velodyne 3D LIDARs: [velodyne_pointcloud](http://wiki.ros.org/velodyne_pointcloud?distro=noetic)
 
 Overview
 ========
